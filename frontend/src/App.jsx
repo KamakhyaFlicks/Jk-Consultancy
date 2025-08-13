@@ -15,6 +15,8 @@ import TestimonialsPage from "./pages/TestimonialsPage";
 import Courses from "./pages/Courses";
 import CourseDetail from "./pages/CourseDetail";
 import ServiceDetailsPage from "./pages/ServicesDetailsPage";
+import OurStory from "./pages/OurStory";
+import OurTeam from "./pages/OurTeam";
 
 function App() {
   
@@ -28,10 +30,12 @@ function App() {
         <Route path="/colleges" element={<Colleges/>} />
         <Route path="/courses" element = {<Courses/>}/>
         <Route path="/bookconsult" element={<BookConsultancy/>} />
+        <Route path="about-us/our-story" element={<OurStory/>}/>
         <Route path="/about-us/contact-us" element={<ContactUs/>} />
         <Route path="/student-services" element={<StudentServicesPage/>} />
-        <Route path="/about-us/our-story" element={<AboutUs/>} />
+        {/* <Route path="/about-us/our-story" element={<AboutUs/>} /> */}
         <Route path="/about-us/testimonials" element={<TestimonialsPage/>} />
+        <Route path="/about-us/team" element={<OurTeam/>} />
 
         <Route path="/colleges/college/:collegeName" element={<CollegeDetail/>} />
         <Route path="/colleges/:countrySlug" element={<CountryPage/>} />

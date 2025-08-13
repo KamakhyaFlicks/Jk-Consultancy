@@ -212,19 +212,17 @@ const Footer = () => {
             <div>
               <h4 className="font-medium text-gray-900 mb-4">Follow Us</h4>
               <div className="flex space-x-3">
-                <a href="#" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
-                  <Facebook className="h-5 w-5" />
-                </a>
-                <a href="#" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
+                
+                <a href="https://www.instagram.com/jk_consultancy_studyabroad/" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
                   <Instagram className="h-5 w-5" />
                 </a>
                 <a href="#" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
                   <Twitter className="h-5 w-5" />
                 </a>
-                <a href="#" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
+                <a href="https://www.linkedin.com/company/jk-consultancy-study-abroad/" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="#" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
+                <a href="https://www.youtube.com/@JKConsultancystudyabroad" className="p-2 text-blue-700 hover:text-blue-900 transition-colors">
                   <Youtube className="h-5 w-5" />
                 </a>
               </div>

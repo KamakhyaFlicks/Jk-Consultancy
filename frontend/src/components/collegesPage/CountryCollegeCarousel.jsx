@@ -114,12 +114,12 @@ export default function CountryCollegeCarousel({ countrySlug }) {
   }
   
   return (
-    <div className="w-full relative py-8">
+    <div className="w-full relative py-10">
       <h2 className="text-2xl font-bold mb-6 text-center">
         Colleges in {colleges[0]?.country || countrySlug}
       </h2>
       
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden py-8">
         <div 
           ref={carouselRef}
           className="flex transition-transform duration-500 ease-out"
@@ -135,8 +135,8 @@ export default function CountryCollegeCarousel({ countrySlug }) {
             <a href={`/colleges/college/${college.name}`} key={college.id}>
             <div 
               key={college.id} 
-              className="px-2"
-              style={{ width: `${100 / colleges.length * cardsToShow}%` }}
+              className="px-2 w-90 h-100"
+              
             >
               <div className="bg-white rounded-lg shadow-md overflow-hidden h-full transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                 <div className="h-48 overflow-hidden">
